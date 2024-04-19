@@ -36,6 +36,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Diagnostics.Metrics.MeterScope</ReturnType>
@@ -58,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Diagnostics.Metrics.MeterScope</ReturnType>
@@ -80,6 +82,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Diagnostics.Metrics.MeterScope</ReturnType>

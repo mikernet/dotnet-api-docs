@@ -16,11 +16,11 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
     </Attribute>
@@ -40,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,6 +59,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -79,9 +81,10 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
         </Attribute>
@@ -106,6 +109,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Configuration.ConfigurationManager</ReturnType>
@@ -127,6 +131,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -148,6 +153,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -189,6 +195,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

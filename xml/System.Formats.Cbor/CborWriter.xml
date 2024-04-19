@@ -23,17 +23,27 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CborWriter (System.Formats.Cbor.CborConformanceMode conformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, bool convertIndefiniteLengthEncodings = false, bool allowMultipleRootLevelValues = false);" />
+      <MemberSignature Language="C#" Value="public CborWriter (System.Formats.Cbor.CborConformanceMode conformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, bool convertIndefiniteLengthEncodings = false, bool allowMultipleRootLevelValues = false);" FrameworkAlternate="dotnet-plat-ext-5.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Formats.Cbor.CborConformanceMode conformanceMode, bool convertIndefiniteLengthEncodings, bool allowMultipleRootLevelValues) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.#ctor(System.Formats.Cbor.CborConformanceMode,System.Boolean,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional conformanceMode As CborConformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, Optional convertIndefiniteLengthEncodings As Boolean = false, Optional allowMultipleRootLevelValues As Boolean = false)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional conformanceMode As CborConformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, Optional convertIndefiniteLengthEncodings As Boolean = false, Optional allowMultipleRootLevelValues As Boolean = false)" FrameworkAlternate="dotnet-plat-ext-5.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
       <MemberSignature Language="F#" Value="new System.Formats.Cbor.CborWriter : System.Formats.Cbor.CborConformanceMode * bool * bool -&gt; System.Formats.Cbor.CborWriter" Usage="new System.Formats.Cbor.CborWriter (conformanceMode, convertIndefiniteLengthEncodings, allowMultipleRootLevelValues)" />
+      <MemberSignature Language="C#" Value="public CborWriter (System.Formats.Cbor.CborConformanceMode conformanceMode, bool convertIndefiniteLengthEncodings, bool allowMultipleRootLevelValues);" FrameworkAlternate="dotnet-plat-ext-9.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (conformanceMode As CborConformanceMode, convertIndefiniteLengthEncodings As Boolean, allowMultipleRootLevelValues As Boolean)" FrameworkAlternate="dotnet-plat-ext-9.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CborWriter(System::Formats::Cbor::CborConformanceMode conformanceMode, bool convertIndefiniteLengthEncodings, bool allowMultipleRootLevelValues);" FrameworkAlternate="dotnet-plat-ext-9.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0">
+          <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters>
         <Parameter Name="conformanceMode" Type="System.Formats.Cbor.CborConformanceMode" />
         <Parameter Name="convertIndefiniteLengthEncodings" Type="System.Boolean" />
@@ -52,6 +62,32 @@
           <paramref name="conformanceMode" /> is not a defined <see cref="T:System.Formats.Cbor.CborConformanceMode" />.</exception>
       </Docs>
     </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CborWriter (System.Formats.Cbor.CborConformanceMode conformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, bool convertIndefiniteLengthEncodings = false, bool allowMultipleRootLevelValues = false, int initialCapacity = -1);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Formats.Cbor.CborConformanceMode conformanceMode, bool convertIndefiniteLengthEncodings, bool allowMultipleRootLevelValues, int32 initialCapacity) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.#ctor(System.Formats.Cbor.CborConformanceMode,System.Boolean,System.Boolean,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional conformanceMode As CborConformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, Optional convertIndefiniteLengthEncodings As Boolean = false, Optional allowMultipleRootLevelValues As Boolean = false, Optional initialCapacity As Integer = -1)" />
+      <MemberSignature Language="F#" Value="new System.Formats.Cbor.CborWriter : System.Formats.Cbor.CborConformanceMode * bool * bool * int -&gt; System.Formats.Cbor.CborWriter" Usage="new System.Formats.Cbor.CborWriter (conformanceMode, convertIndefiniteLengthEncodings, allowMultipleRootLevelValues, initialCapacity)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Formats.Cbor</AssemblyName>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="conformanceMode" Type="System.Formats.Cbor.CborConformanceMode" Index="0" FrameworkAlternate="dotnet-plat-ext-9.0" />
+        <Parameter Name="convertIndefiniteLengthEncodings" Type="System.Boolean" Index="1" FrameworkAlternate="dotnet-plat-ext-9.0" />
+        <Parameter Name="allowMultipleRootLevelValues" Type="System.Boolean" Index="2" FrameworkAlternate="dotnet-plat-ext-9.0" />
+        <Parameter Name="initialCapacity" Type="System.Int32" Index="3" FrameworkAlternate="dotnet-plat-ext-9.0" />
+      </Parameters>
+      <Docs>
+        <param name="conformanceMode">To be added.</param>
+        <param name="convertIndefiniteLengthEncodings">To be added.</param>
+        <param name="allowMultipleRootLevelValues">To be added.</param>
+        <param name="initialCapacity">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AllowMultipleRootLevelValues">
       <MemberSignature Language="C#" Value="public bool AllowMultipleRootLevelValues { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool AllowMultipleRootLevelValues" />
@@ -64,6 +100,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -87,6 +124,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -109,6 +147,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Formats.Cbor.CborConformanceMode</ReturnType>
@@ -131,6 +170,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -154,6 +194,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -176,9 +217,10 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -206,6 +248,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -234,6 +277,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -257,6 +301,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -279,6 +324,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -309,6 +355,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -341,6 +388,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -371,9 +419,10 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -410,6 +459,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -442,6 +492,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -483,6 +534,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -515,6 +567,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -547,6 +600,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -579,6 +633,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -611,6 +666,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -638,6 +694,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -661,6 +718,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -684,6 +742,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -713,12 +772,13 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Half" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0;net-6.0;net-7.0;net-8.0" />
+        <Parameter Name="value" Type="System.Half" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0" />
       </Parameters>
       <Docs>
         <param name="value">The value to write.</param>
@@ -745,6 +805,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -777,6 +838,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -809,6 +871,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -836,6 +899,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -867,6 +931,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -899,6 +964,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -935,6 +1001,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -968,6 +1035,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1001,6 +1069,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1043,6 +1112,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1081,6 +1151,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1114,9 +1185,10 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -1154,6 +1226,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1192,6 +1265,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1230,6 +1304,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1263,6 +1338,7 @@
         <AssemblyName>System.Formats.Cbor</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

@@ -1,6 +1,6 @@
 <Type Name="IConnectionInitiator" FullName="System.ServiceModel.Channels.IConnectionInitiator">
   <TypeSignature Language="C#" Value="public interface IConnectionInitiator" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IConnectionInitiator" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IConnectionInitiator" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Channels.IConnectionInitiator" />
   <TypeSignature Language="VB.NET" Value="Public Interface IConnectionInitiator" />
   <TypeSignature Language="F#" Value="type IConnectionInitiator = interface" />
@@ -50,12 +50,12 @@
       </Docs>
     </Member>
     <Member MemberName="ConnectAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.ServiceModel.Channels.IConnection&gt; ConnectAsync (Uri uri, TimeSpan timeout);" FrameworkAlternate="net-8.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.ServiceModel.Channels.IConnection&gt; ConnectAsync(class System.Uri uri, valuetype System.TimeSpan timeout) cil managed" FrameworkAlternate="net-8.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.ValueTask&lt;System.ServiceModel.Channels.IConnection&gt; ConnectAsync (Uri uri, TimeSpan timeout);" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;class System.ServiceModel.Channels.IConnection&gt; ConnectAsync(class System.Uri uri, valuetype System.TimeSpan timeout) cil managed" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.Channels.IConnectionInitiator.ConnectAsync(System.Uri,System.TimeSpan)" />
-      <MemberSignature Language="VB.NET" Value="Public Function ConnectAsync (uri As Uri, timeout As TimeSpan) As ValueTask(Of IConnection)" FrameworkAlternate="net-8.0" />
-      <MemberSignature Language="F#" Value="abstract member ConnectAsync : Uri * TimeSpan -&gt; System.Threading.Tasks.ValueTask&lt;System.ServiceModel.Channels.IConnection&gt;" Usage="iConnectionInitiator.ConnectAsync (uri, timeout)" FrameworkAlternate="net-8.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::ValueTask&lt;System::ServiceModel::Channels::IConnection ^&gt; ConnectAsync(Uri ^ uri, TimeSpan timeout);" FrameworkAlternate="net-8.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function ConnectAsync (uri As Uri, timeout As TimeSpan) As ValueTask(Of IConnection)" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
+      <MemberSignature Language="F#" Value="abstract member ConnectAsync : Uri * TimeSpan -&gt; System.Threading.Tasks.ValueTask&lt;System.ServiceModel.Channels.IConnection&gt;" Usage="iConnectionInitiator.ConnectAsync (uri, timeout)" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::ValueTask&lt;System::ServiceModel::Channels::IConnection ^&gt; ConnectAsync(Uri ^ uri, TimeSpan timeout);" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.ServiceModel.Channels.IConnection&gt; ConnectAsync (Uri uri, TimeSpan timeout);" FrameworkAlternate="netstandard-2.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.ServiceModel.Channels.IConnection&gt; ConnectAsync(class System.Uri uri, valuetype System.TimeSpan timeout) cil managed" FrameworkAlternate="netstandard-2.0" />
       <MemberSignature Language="VB.NET" Value="Public Function ConnectAsync (uri As Uri, timeout As TimeSpan) As Task(Of IConnection)" FrameworkAlternate="netstandard-2.0" />
@@ -71,7 +71,7 @@
         <AssemblyVersion>4.10.3.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="net-8.0">System.Threading.Tasks.ValueTask&lt;System.ServiceModel.Channels.IConnection&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">System.Threading.Tasks.ValueTask&lt;System.ServiceModel.Channels.IConnection&gt;</ReturnType>
         <ReturnType FrameworkAlternate="netstandard-2.0">System.Threading.Tasks.Task&lt;System.ServiceModel.Channels.IConnection&gt;</ReturnType>
       </ReturnValue>
       <Parameters>

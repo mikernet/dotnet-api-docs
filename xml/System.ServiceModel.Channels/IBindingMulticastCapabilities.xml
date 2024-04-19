@@ -1,6 +1,6 @@
 <Type Name="IBindingMulticastCapabilities" FullName="System.ServiceModel.Channels.IBindingMulticastCapabilities">
   <TypeSignature Language="C#" Value="public interface IBindingMulticastCapabilities" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IBindingMulticastCapabilities" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IBindingMulticastCapabilities" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Channels.IBindingMulticastCapabilities" />
   <TypeSignature Language="VB.NET" Value="Public Interface IBindingMulticastCapabilities" />
   <TypeSignature Language="F#" Value="type IBindingMulticastCapabilities = interface" />

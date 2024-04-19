@@ -37,6 +37,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Data.Odbc</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Odbc.ODBC32+RETCODE</ReturnType>
@@ -57,6 +58,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Data.Odbc</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Odbc.ODBC32+RETCODE</ReturnType>
@@ -77,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Data.Odbc</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Odbc.ODBC32+RETCODE</ReturnType>
@@ -97,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Data.Odbc</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Odbc.ODBC32+RETCODE</ReturnType>
@@ -117,6 +121,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Data.Odbc</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.Odbc.ODBC32+RETCODE</ReturnType>

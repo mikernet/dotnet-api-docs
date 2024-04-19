@@ -16,11 +16,11 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
     </Attribute>
@@ -42,6 +42,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -65,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="startDateTime" Type="System.DateTimeOffset" />
@@ -90,6 +92,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -122,6 +125,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -148,6 +152,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.ITimer</ReturnType>
@@ -156,7 +161,7 @@
         <Parameter Name="callback" Type="System.Threading.TimerCallback" />
         <Parameter Name="state" Type="System.Object">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -187,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -210,6 +216,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -233,6 +240,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeZoneInfo</ReturnType>
@@ -255,6 +263,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -281,6 +290,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -308,6 +318,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
@@ -331,6 +342,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -356,6 +368,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

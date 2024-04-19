@@ -25,11 +25,11 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
     </Attribute>
@@ -54,7 +54,7 @@ For more information and examples, see [File configuration provider](/dotnet/cor
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFileLoadExceptionHandler (builder As IConfigurationBuilder) As Action(Of FileLoadExceptionContext)" />
       <MemberSignature Language="F#" Value="static member GetFileLoadExceptionHandler : Microsoft.Extensions.Configuration.IConfigurationBuilder -&gt; Action&lt;Microsoft.Extensions.Configuration.FileLoadExceptionContext&gt;" Usage="Microsoft.Extensions.Configuration.FileConfigurationExtensions.GetFileLoadExceptionHandler builder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static Action&lt;Microsoft::Extensions::Configuration::FileLoadExceptionContext ^&gt; ^ GetFileLoadExceptionHandler(Microsoft::Extensions::Configuration::IConfigurationBuilder ^ builder);" />
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Configuration.FileLoadExceptionContext&gt;? GetFileLoadExceptionHandler (this Microsoft.Extensions.Configuration.IConfigurationBuilder builder);" FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Configuration.FileLoadExceptionContext&gt;? GetFileLoadExceptionHandler (this Microsoft.Extensions.Configuration.IConfigurationBuilder builder);" FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Configuration.FileExtensions</AssemblyName>
@@ -66,6 +66,7 @@ For more information and examples, see [File configuration provider](/dotnet/cor
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Action&lt;Microsoft.Extensions.Configuration.FileLoadExceptionContext&gt;</ReturnType>
@@ -99,6 +100,7 @@ For more information and examples, see [File configuration provider](/dotnet/cor
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.FileProviders.IFileProvider</ReturnType>
@@ -132,6 +134,7 @@ For more information and examples, see [File configuration provider](/dotnet/cor
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Configuration.IConfigurationBuilder</ReturnType>
@@ -166,6 +169,7 @@ For more information and examples, see [File configuration provider](/dotnet/cor
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Configuration.IConfigurationBuilder</ReturnType>
@@ -201,6 +205,7 @@ For more information and examples, see [File configuration provider](/dotnet/cor
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Configuration.IConfigurationBuilder</ReturnType>

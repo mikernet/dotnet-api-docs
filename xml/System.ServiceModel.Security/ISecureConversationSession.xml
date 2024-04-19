@@ -1,6 +1,6 @@
 <Type Name="ISecureConversationSession" FullName="System.ServiceModel.Security.ISecureConversationSession">
   <TypeSignature Language="C#" Value="public interface ISecureConversationSession : System.ServiceModel.Security.ISecuritySession" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ISecureConversationSession implements class System.ServiceModel.Channels.ISession, class System.ServiceModel.Security.ISecuritySession" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ISecureConversationSession implements class System.ServiceModel.Channels.ISession, class System.ServiceModel.Security.ISecuritySession" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Security.ISecureConversationSession" />
   <TypeSignature Language="VB.NET" Value="Public Interface ISecureConversationSession&#xA;Implements ISecuritySession" />
   <TypeSignature Language="F#" Value="type ISecureConversationSession = interface&#xA;    interface ISecuritySession&#xA;    interface ISession" />

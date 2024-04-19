@@ -12,7 +12,7 @@
   </AssemblyInfo>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
     </Attribute>
@@ -33,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Configuration.IConfigurationManager</ReturnType>
@@ -53,6 +54,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -64,7 +66,7 @@
         <Parameter Name="factory" Type="Microsoft.Extensions.DependencyInjection.IServiceProviderFactory&lt;TContainerBuilder&gt;" />
         <Parameter Name="configure" Type="System.Action&lt;TContainerBuilder&gt;">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -93,6 +95,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostEnvironment</ReturnType>
@@ -114,6 +117,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Logging.ILoggingBuilder</ReturnType>
@@ -135,6 +139,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Diagnostics.Metrics.IMetricsBuilder</ReturnType>
@@ -156,6 +161,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Object&gt;</ReturnType>
@@ -177,6 +183,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IServiceCollection</ReturnType>

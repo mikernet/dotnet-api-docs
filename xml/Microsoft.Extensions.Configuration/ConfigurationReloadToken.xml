@@ -51,6 +51,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -80,6 +81,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -112,6 +114,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -141,6 +144,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -158,7 +162,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function RegisterChangeCallback (callback As Action(Of Object), state As Object) As IDisposable" />
       <MemberSignature Language="F#" Value="abstract member RegisterChangeCallback : Action&lt;obj&gt; * obj -&gt; IDisposable&#xA;override this.RegisterChangeCallback : Action&lt;obj&gt; * obj -&gt; IDisposable" Usage="configurationReloadToken.RegisterChangeCallback (callback, state)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual IDisposable ^ RegisterChangeCallback(Action&lt;System::Object ^&gt; ^ callback, System::Object ^ state);" />
-      <MemberSignature Language="C#" Value="public IDisposable RegisterChangeCallback (Action&lt;object?&gt; callback, object? state);" FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
+      <MemberSignature Language="C#" Value="public IDisposable RegisterChangeCallback (Action&lt;object?&gt; callback, object? state);" FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:Microsoft.Extensions.Primitives.IChangeToken.RegisterChangeCallback(System.Action{System.Object},System.Object)</InterfaceMember>
@@ -174,9 +178,10 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -187,7 +192,7 @@
       <Parameters>
         <Parameter Name="callback" Type="System.Action&lt;System.Object&gt;">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 2 })&gt;]</AttributeName>
             </Attribute>
@@ -195,7 +200,7 @@
         </Parameter>
         <Parameter Name="state" Type="System.Object">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>

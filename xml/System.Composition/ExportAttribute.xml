@@ -219,6 +219,7 @@ End Sub
         <AssemblyVersion>1.0.35.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -251,6 +252,7 @@ The contract name is compared by using the <xref:System.StringComparer.Ordinal> 
         <AssemblyVersion>1.0.35.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="contractName" Type="System.String" />
@@ -286,6 +288,7 @@ The contract name is compared by using the <xref:System.StringComparer.Ordinal> 
         <AssemblyVersion>1.0.35.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="contractType" Type="System.Type" />
@@ -321,6 +324,7 @@ The contract name is compared by using the <xref:System.StringComparer.Ordinal> 
         <AssemblyVersion>1.0.35.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="contractName" Type="System.String" />
@@ -350,6 +354,7 @@ The contract name is compared by using the <xref:System.StringComparer.Ordinal> 
         <AssemblyVersion>1.0.35.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -377,6 +382,7 @@ The contract name is compared by using the <xref:System.StringComparer.Ordinal> 
         <AssemblyVersion>1.0.35.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>

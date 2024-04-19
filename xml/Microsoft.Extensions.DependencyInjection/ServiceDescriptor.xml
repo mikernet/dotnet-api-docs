@@ -30,15 +30,15 @@
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("Lifetime = {Lifetime}, ServiceType = {ServiceType}, ImplementationType = {ImplementationType}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Lifetime = {Lifetime}, ServiceType = {ServiceType}, ImplementationType = {ImplementationType}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
       <AttributeName Language="C#">[System.Diagnostics.DebuggerDisplay("{DebuggerToString(),nq}")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("{DebuggerToString(),nq}")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
     </Attribute>
@@ -68,6 +68,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceType" Type="System.Type" />
@@ -101,6 +102,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceType" Type="System.Type" />
@@ -127,12 +129,13 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -168,12 +171,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceType" Type="System.Type" />
         <Parameter Name="implementationType" Type="System.Type">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -201,12 +205,13 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -214,7 +219,7 @@
         </Parameter>
         <Parameter Name="factory" Type="System.Func&lt;System.IServiceProvider,System.Object,System.Object&gt;" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -243,12 +248,13 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -256,7 +262,7 @@
         </Parameter>
         <Parameter Name="implementationType" Type="System.Type" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -293,6 +299,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -333,6 +340,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -341,7 +349,7 @@
         <Parameter Name="serviceType" Type="System.Type" />
         <Parameter Name="implementationType" Type="System.Type">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -372,6 +380,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -380,7 +389,7 @@
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -388,7 +397,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,System.Object&gt;" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -418,6 +427,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -426,7 +436,7 @@
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -434,7 +444,7 @@
         </Parameter>
         <Parameter Name="implementationType" Type="System.Type" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -459,7 +469,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImplementationFactory As Func(Of IServiceProvider, Object)" />
       <MemberSignature Language="F#" Value="member this.ImplementationFactory : Func&lt;IServiceProvider, obj&gt;" Usage="Microsoft.Extensions.DependencyInjection.ServiceDescriptor.ImplementationFactory" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Func&lt;IServiceProvider ^, System::Object ^&gt; ^ ImplementationFactory { Func&lt;IServiceProvider ^, System::Object ^&gt; ^ get(); };" />
-      <MemberSignature Language="C#" Value="public Func&lt;IServiceProvider,object&gt;? ImplementationFactory { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public Func&lt;IServiceProvider,object&gt;? ImplementationFactory { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
@@ -473,9 +483,10 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 1 })&gt;]</AttributeName>
         </Attribute>
@@ -496,7 +507,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImplementationInstance As Object" />
       <MemberSignature Language="F#" Value="member this.ImplementationInstance : obj" Usage="Microsoft.Extensions.DependencyInjection.ServiceDescriptor.ImplementationInstance" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ImplementationInstance { System::Object ^ get(); };" />
-      <MemberSignature Language="C#" Value="public object? ImplementationInstance { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public object? ImplementationInstance { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
@@ -510,13 +521,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
         </Attribute>
@@ -537,7 +549,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ImplementationType As Type" />
       <MemberSignature Language="F#" Value="member this.ImplementationType : Type" Usage="Microsoft.Extensions.DependencyInjection.ServiceDescriptor.ImplementationType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ ImplementationType { Type ^ get(); };" />
-      <MemberSignature Language="C#" Value="public Type? ImplementationType { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public Type? ImplementationType { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
@@ -551,17 +563,18 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
         </Attribute>
@@ -587,6 +600,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -609,9 +623,10 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2, 1 })]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1, 2, 1 })&gt;]</AttributeName>
         </Attribute>
@@ -637,13 +652,14 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
         </Attribute>
@@ -669,17 +685,18 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
         </Attribute>
@@ -705,6 +722,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -713,7 +731,7 @@
         <Parameter Name="service" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -721,7 +739,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,System.Object&gt;" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -749,6 +767,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -757,7 +776,7 @@
         <Parameter Name="service" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -765,7 +784,7 @@
         </Parameter>
         <Parameter Name="implementationType" Type="System.Type" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -793,6 +812,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -807,7 +827,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -815,7 +835,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,TService&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -843,6 +863,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -855,7 +876,7 @@
         </TypeParameter>
         <TypeParameter Name="TImplementation">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -869,7 +890,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -897,6 +918,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -917,7 +939,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -925,7 +947,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,TImplementation&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -954,6 +976,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -962,7 +985,7 @@
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -970,7 +993,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,System.Object&gt;" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -998,6 +1021,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1006,7 +1030,7 @@
         <Parameter Name="serviceType" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1035,6 +1059,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1043,7 +1068,7 @@
         <Parameter Name="service" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1051,7 +1076,7 @@
         </Parameter>
         <Parameter Name="implementationType" Type="System.Type" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1079,6 +1104,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1093,7 +1119,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1101,7 +1127,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,TService&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -1129,6 +1155,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1143,7 +1170,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1172,6 +1199,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1184,7 +1212,7 @@
         </TypeParameter>
         <TypeParameter Name="TImplementation">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1198,7 +1226,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1226,6 +1254,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1246,7 +1275,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1254,7 +1283,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,TImplementation&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -1283,6 +1312,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1291,7 +1321,7 @@
         <Parameter Name="service" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1299,7 +1329,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,System.Object&gt;" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -1327,6 +1357,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1335,7 +1366,7 @@
         <Parameter Name="service" Type="System.Type" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="serviceKey" Type="System.Object" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1343,7 +1374,7 @@
         </Parameter>
         <Parameter Name="implementationType" Type="System.Type" Index="2" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1371,6 +1402,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1385,7 +1417,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1393,7 +1425,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,TService&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -1421,6 +1453,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1433,7 +1466,7 @@
         </TypeParameter>
         <TypeParameter Name="TImplementation">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1447,7 +1480,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1475,6 +1508,7 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1495,7 +1529,7 @@
       <Parameters>
         <Parameter Name="serviceKey" Type="System.Object" Index="0" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -1503,7 +1537,7 @@
         </Parameter>
         <Parameter Name="implementationFactory" Type="System.Func&lt;System.IServiceProvider,System.Object,TImplementation&gt;" Index="1" FrameworkAlternate="dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -1540,6 +1574,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceLifetime</ReturnType>
@@ -1570,6 +1605,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1608,6 +1644,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1616,7 +1653,7 @@
         <Parameter Name="service" Type="System.Type" />
         <Parameter Name="implementationType" Type="System.Type">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1653,6 +1690,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1697,6 +1735,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1713,7 +1752,7 @@
             <BaseTypeName>TService</BaseTypeName>
           </Constraints>
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1751,6 +1790,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1795,13 +1835,14 @@
         <AssemblyName>Microsoft.Extensions.DependencyInjection.Abstractions</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.NullableContext(2)]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.NullableContext(2)&gt;]</AttributeName>
         </Attribute>
@@ -1835,6 +1876,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -1865,6 +1907,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1903,6 +1946,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1941,6 +1985,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -1949,7 +1994,7 @@
         <Parameter Name="service" Type="System.Type" />
         <Parameter Name="implementationType" Type="System.Type">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -1986,6 +2031,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2030,6 +2076,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2074,6 +2121,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2090,7 +2138,7 @@
             <BaseTypeName>TService</BaseTypeName>
           </Constraints>
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -2128,6 +2176,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2175,6 +2224,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -2207,6 +2257,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2245,6 +2296,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2253,7 +2305,7 @@
         <Parameter Name="service" Type="System.Type" />
         <Parameter Name="implementationType" Type="System.Type">
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -2290,6 +2342,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2334,6 +2387,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>
@@ -2350,7 +2404,7 @@
             <BaseTypeName>TService</BaseTypeName>
           </Constraints>
           <Attributes>
-            <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
               <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicallyAccessedMembers(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicConstructors)&gt;]</AttributeName>
             </Attribute>
@@ -2388,6 +2442,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.1</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.ServiceDescriptor</ReturnType>

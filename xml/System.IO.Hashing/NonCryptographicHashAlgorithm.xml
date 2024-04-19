@@ -32,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="hashLengthInBytes" Type="System.Int32" />
@@ -55,9 +56,10 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -87,9 +89,10 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -119,6 +122,7 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -142,9 +146,10 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -179,9 +184,10 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -207,6 +213,7 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -234,6 +241,7 @@
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -274,9 +282,10 @@ The <xref:System.IO.Hashing.NonCryptographicHashAlgorithm> class validates the
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
         </Attribute>
@@ -302,6 +311,7 @@ The <xref:System.IO.Hashing.NonCryptographicHashAlgorithm> class validates the
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -329,6 +339,7 @@ The <xref:System.IO.Hashing.NonCryptographicHashAlgorithm> class validates the
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -376,6 +387,7 @@ The default implementation of this method calls
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -410,6 +422,7 @@ The default implementation of this method calls
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -431,6 +444,7 @@ The default implementation of this method calls
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -452,6 +466,7 @@ The default implementation of this method calls
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -480,6 +495,7 @@ The default implementation of this method calls
       <AssemblyInfo>
         <AssemblyName>System.IO.Hashing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

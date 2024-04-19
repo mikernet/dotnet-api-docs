@@ -41,9 +41,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-plat-ext-9.0">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -57,7 +64,7 @@
       <Parameters>
         <Parameter Name="measurements" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
             </Attribute>
@@ -69,7 +76,7 @@
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
               <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 2 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 2 })&gt;]</AttributeName>
             </Attribute>
@@ -102,9 +109,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-plat-ext-9.0">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -118,7 +132,7 @@
       <Parameters>
         <Parameter Name="measurements" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
             </Attribute>
@@ -130,7 +144,7 @@
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
               <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
             </Attribute>
@@ -163,6 +177,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>T</ReturnType>
@@ -179,7 +194,7 @@
       <Parameters>
         <Parameter Name="measurements" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
             </Attribute>
@@ -211,9 +226,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-plat-ext-9.0">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -227,7 +249,7 @@
       <Parameters>
         <Parameter Name="measurements" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
             </Attribute>
@@ -239,7 +261,7 @@
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
               <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 2 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 0, 1, 2 })&gt;]</AttributeName>
             </Attribute>
@@ -272,9 +294,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.Testing</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="dotnet-plat-ext-9.0">
+            <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -288,7 +317,7 @@
       <Parameters>
         <Parameter Name="measurements" Type="System.Collections.Generic.IEnumerable&lt;Microsoft.Extensions.Diagnostics.Metrics.Testing.CollectedMeasurement&lt;T&gt;&gt;" RefType="this">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 1, 1, 0 })&gt;]</AttributeName>
             </Attribute>
@@ -300,7 +329,7 @@
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
               <AttributeName Language="F#">[&lt;System.ParamArray&gt;]</AttributeName>
             </Attribute>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(1)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(1)&gt;]</AttributeName>
             </Attribute>

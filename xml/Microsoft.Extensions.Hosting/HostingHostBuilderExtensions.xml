@@ -22,11 +22,11 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
     </Attribute>
@@ -52,6 +52,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -87,6 +88,7 @@
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -94,7 +96,7 @@
       <TypeParameters>
         <TypeParameter Name="TContainerBuilder">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(2)]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(2)&gt;]</AttributeName>
             </Attribute>
@@ -126,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -134,7 +137,7 @@
         <Parameter Name="builder" Type="Microsoft.Extensions.Hosting.IHostBuilder" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1" />
         <Parameter Name="args" Type="System.String[]" Index="1" FrameworkAlternate="dotnet-plat-ext-6.0;dotnet-plat-ext-7.0;dotnet-plat-ext-8.0;dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netframework-4.8.1;netstandard-2.0;netstandard-2.1">
           <Attributes>
-            <Attribute FrameworkAlternate="net-8.0">
+            <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
               <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })]</AttributeName>
               <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(new System.Byte[] { 2, 1 })&gt;]</AttributeName>
             </Attribute>
@@ -177,6 +180,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -204,6 +208,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -236,6 +241,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -268,6 +274,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -295,6 +302,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -322,6 +330,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Hosting</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -354,6 +363,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -385,21 +395,22 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
         </Attribute>
@@ -433,21 +444,22 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
         </Attribute>
@@ -486,21 +498,22 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
         </Attribute>
@@ -533,21 +546,22 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("android")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("android")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("ios")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("ios")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="net-6.0;net-7.0;net-8.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-6.0;net-7.0;net-8.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("tvos")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("tvos")&gt;]</AttributeName>
         </Attribute>
@@ -584,6 +598,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -614,6 +629,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -644,6 +660,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>
@@ -676,6 +693,7 @@ The following defaults are applied to the <xref:Microsoft.Extensions.Hosting.IHo
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Hosting.IHostBuilder</ReturnType>

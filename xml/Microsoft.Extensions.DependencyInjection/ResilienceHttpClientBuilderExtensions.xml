@@ -16,11 +16,11 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.Nullable(0)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.Nullable(0)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-8.0">
+    <Attribute FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.NullableContext(1)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.NullableContext(1)&gt;]</AttributeName>
     </Attribute>
@@ -43,6 +43,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IHttpResiliencePipelineBuilder</ReturnType>
@@ -77,6 +78,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IHttpResiliencePipelineBuilder</ReturnType>
@@ -111,6 +113,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IStandardHedgingHandlerBuilder</ReturnType>
@@ -148,6 +151,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IStandardHedgingHandlerBuilder</ReturnType>
@@ -187,6 +191,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IHttpStandardResiliencePipelineBuilder</ReturnType>
@@ -217,6 +222,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IHttpStandardResiliencePipelineBuilder</ReturnType>
@@ -249,6 +255,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.4.0.0</AssemblyVersion>
+        <AssemblyVersion>9.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.Http.Resilience.IHttpStandardResiliencePipelineBuilder</ReturnType>

@@ -1,6 +1,6 @@
 <Type Name="IOperationInvoker" FullName="System.ServiceModel.Dispatcher.IOperationInvoker">
   <TypeSignature Language="C#" Value="public interface IOperationInvoker" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IOperationInvoker" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IOperationInvoker" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Dispatcher.IOperationInvoker" />
   <TypeSignature Language="VB.NET" Value="Public Interface IOperationInvoker" />
   <TypeSignature Language="F#" Value="type IOperationInvoker = interface" />

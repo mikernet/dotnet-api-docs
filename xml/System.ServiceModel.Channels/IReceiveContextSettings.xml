@@ -1,6 +1,6 @@
 <Type Name="IReceiveContextSettings" FullName="System.ServiceModel.Channels.IReceiveContextSettings">
   <TypeSignature Language="C#" Value="public interface IReceiveContextSettings" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IReceiveContextSettings" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IReceiveContextSettings" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Channels.IReceiveContextSettings" />
   <TypeSignature Language="VB.NET" Value="Public Interface IReceiveContextSettings" />
   <TypeSignature Language="F#" Value="type IReceiveContextSettings = interface" />

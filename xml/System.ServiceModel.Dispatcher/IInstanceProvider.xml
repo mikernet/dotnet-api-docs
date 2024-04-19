@@ -1,6 +1,6 @@
 <Type Name="IInstanceProvider" FullName="System.ServiceModel.Dispatcher.IInstanceProvider">
   <TypeSignature Language="C#" Value="public interface IInstanceProvider" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IInstanceProvider" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IInstanceProvider" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Dispatcher.IInstanceProvider" />
   <TypeSignature Language="VB.NET" Value="Public Interface IInstanceProvider" />
   <TypeSignature Language="F#" Value="type IInstanceProvider = interface" />

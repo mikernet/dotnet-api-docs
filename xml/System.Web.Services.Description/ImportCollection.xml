@@ -60,8 +60,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -104,8 +102,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -149,8 +145,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -194,8 +188,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -238,8 +230,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -297,8 +287,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -341,8 +329,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -391,8 +377,6 @@
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Web.Services.Description</AssemblyName>
-        <AssemblyVersion>6.0.0.0</AssemblyVersion>
-        <AssemblyVersion>6.2.0.0</AssemblyVersion>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

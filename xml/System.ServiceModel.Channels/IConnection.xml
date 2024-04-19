@@ -1,6 +1,6 @@
 <Type Name="IConnection" FullName="System.ServiceModel.Channels.IConnection">
   <TypeSignature Language="C#" Value="public interface IConnection" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IConnection" FrameworkAlternate="net-8.0" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IConnection" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Channels.IConnection" />
   <TypeSignature Language="VB.NET" Value="Public Interface IConnection" />
   <TypeSignature Language="F#" Value="type IConnection = interface" />
@@ -201,7 +201,7 @@
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="timeout" Type="System.TimeSpan" Index="0" FrameworkAlternate="net-8.0" />
+        <Parameter Name="timeout" Type="System.TimeSpan" Index="0" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
       </Parameters>
       <Docs>
         <param name="timeout">To be added.</param>
@@ -343,8 +343,8 @@
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.Int32&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="buffer" Type="System.Memory&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-8.0" />
-        <Parameter Name="timeout" Type="System.TimeSpan" Index="1" FrameworkAlternate="net-8.0" />
+        <Parameter Name="buffer" Type="System.Memory&lt;System.Byte&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
+        <Parameter Name="timeout" Type="System.TimeSpan" Index="1" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
       </Parameters>
       <Docs>
         <param name="buffer">To be added.</param>
@@ -436,9 +436,9 @@
         <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="buffer" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-8.0" />
-        <Parameter Name="immediate" Type="System.Boolean" Index="1" FrameworkAlternate="net-8.0" />
-        <Parameter Name="timeout" Type="System.TimeSpan" Index="2" FrameworkAlternate="net-8.0" />
+        <Parameter Name="buffer" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
+        <Parameter Name="immediate" Type="System.Boolean" Index="1" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
+        <Parameter Name="timeout" Type="System.TimeSpan" Index="2" FrameworkAlternate="dotnet-plat-ext-9.0;net-8.0" />
       </Parameters>
       <Docs>
         <param name="buffer">To be added.</param>
